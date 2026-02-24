@@ -79,27 +79,31 @@ These are functions you can use to analyze:
 All these functions return the score data indicating the complexity.
 
 ## Supported languages
-These languages are fairly complete:
 
-- Bash
-- C / C++ / C#
-- Elisp
-- Go
-- Java / JavaScript / JSX / Julia
-- Kotlin
-- Lua
-- PHP / Python
-- Ruby / Rust
-- Swift
-- TypeScript / TSX
-
-These languages are in development:
-
-- Agda
-- Elm
-- Elixir
-- OCaml
-- Scala (upstream, kinda buggy)
+| Language | Rules | Tests | Notes |
+|---|---|---|---|
+| Bash | 4 | 2 | |
+| C | 12 | 5 | |
+| C++ | 14 | — | Extends C rules |
+| C# | 12 | — | |
+| Elisp | 3 | — | All custom scoring functions |
+| Elixir | 1 | — | Minimal — single rule |
+| Go | 9 | 3 | |
+| Java | 14 | 1 | |
+| JavaScript / JSX | 13 | 4 | |
+| Julia | 10 | — | |
+| Kotlin | 18 | 3 | Most custom scoring logic |
+| Lua | 8 | 4 | |
+| PHP | 13 | — | |
+| Python | 11 | — | |
+| Ruby | 11 | — | |
+| Rust | 12 | 5 | |
+| Scala | 9 | — | Known issues with lambda parsing |
+| Swift | 9 | — | |
+| TypeScript / TSX | 15 | 4 | Extends JavaScript rules |
+| Agda | — | — | Not yet supported |
+| Elm | — | — | Not yet supported |
+| OCaml | — | — | Not yet supported |
 
 ## Customization
 
